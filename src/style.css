@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#7def6e, #f58886);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+header > .title {
+    display: flex;
+    align-items: center;
+}
+
+.title > img {
+    height: 50px;
+    width: 50px;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10px;
+}
+
+header > nav > button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+header > nav > button:hover {
+    border-bottom: 2px solid #f58886;
+}
+
+header > nav > button:active {
+    transform: scale(0.9);
+}

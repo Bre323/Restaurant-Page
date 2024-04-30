@@ -5,7 +5,8 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background: linear-gradient(#7def6e, #f58886);
     background-repeat: no-repeat;
 }
@@ -50,4 +51,59 @@ header > nav > button:hover {
 
 header > nav > button:active {
     transform: scale(0.9);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.home > .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    height: 300px;
+    width: 100%;
+}
+
+.home > .description > img {
+    height: 60%;
+    width: 200px;
+    box-shadow: 1px 1px 2px 4px;
+    border-radius: 50%;
+}
+
+.home > .description > p {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.home > .hours {
+    background-color: #7def6e;
+    text-align: center;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 2px;
+    padding: 20px;
+}
+
+.home > .hours > h2 {
+    margin-bottom: 25px;
+}
+
+.home > .hours > li {
+    list-style: none;
+}
+
+.home > .hours > li > ul {
+    font-weight: 700;
+    margin-top: 10px;
 }

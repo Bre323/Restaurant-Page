@@ -110,7 +110,6 @@ header > nav > button:active {
     margin-top: 10px;
 }
 
-/* Menu Section
 .menu {
     margin: 20px auto;
     padding: 15px;
@@ -152,10 +151,7 @@ header > nav > button:active {
 .pizza-description > p {
     font-size: 1.25rem;
 }
-*/
 
-
-/* Contact Section
 .contact {
     display: flex;
     flex-direction: column;
@@ -176,4 +172,3 @@ header > nav > button:active {
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
-*/

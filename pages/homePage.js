@@ -31,12 +31,12 @@ const generateHomePage = () => {
     let saturday = document.createElement('ul');
     let sunday = document.createElement('ul');
     monday.innerText = 'Monday: 6am to 8pm';
-    tuesday.innerText = 'Monday: 6am to 8pm';
-    wednesday.innerText = 'Monday: 6am to 8pm';
-    thursday.innerText = 'Monday: 6am to 10pm';
-    friday.innerText = 'Monday: 6am to 10pm';
-    saturday.innerText = 'Monday: 6am to 6pm';
-    sunday.innerText = 'Monday: 6am to 3pm';
+    tuesday.innerText = 'Tuesday: 6am to 8pm';
+    wednesday.innerText = 'Wednesday: 6am to 8pm';
+    thursday.innerText = 'Thursday: 6am to 10pm';
+    friday.innerText = 'Friday: 6am to 10pm';
+    saturday.innerText = 'Saturday: 6am to 6pm';
+    sunday.innerText = 'Sunday: 6am to 3pm';
 
 
     hoursList.append(monday, tuesday, wednesday, thursday, friday, saturday, sunday);
